@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .navbar{
+    height: 100px;
+    width: auto;
+    border:solid; 
+    border-width: 1px;
+   
+    background-color: grey;
+} */
+
+.navbar>h1{
+    padding: 30px ;
+    text-align: center;
+}
+
+.a1{
+    height: 666px;
+    background-color: dodgerblue;
+    
+    padding-top: 40px;
+    padding-left: 33%;
+    
+}
+
+.a2{
+    /* border: solid; */
+    border-width: 1px;
+    /* border-radius: 50px; */
+    
+    height: 600px;
+    width: 500px;
+
+    background-color:white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.a2>h1{
+    padding-top: 20px;
+    padding-left:40px;
+    /* text-align: center; */
+    color:rgb(8, 1, 1);
+}
+
+.a2>p{
+    /* padding-top: 20px; */
+    /* text-align: center; */
+    padding-left: 40px;
+    color:rgb(110, 103, 103);
+    padding-bottom: 30px
+    
+}
+
+
+.form{
+    /* padding-top: 30px; */
+    /* padding-left: 30px; */
+    padding: 20px;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 20px;
+
+}
+
+.names>div>input{
+    height: 40px;
+    padding-left: 10px;
+    background-color: rgb(240, 236, 236);
+
+    border-width: 0px;
+}
+
+.form-1{
+    /* padding: 10px; */
+    padding-left: 29px;
+    padding-bottom: 20px;
+}
+
+.form-1>input{
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    background-color: rgb(240, 236, 236);
+    border-width: 0px;
+
+}
+
+
+
+.sign{
+    height: 50px;
+    width: 160px;
+
+    /* margin-left: 30px; */
+    margin: 30px;
+    /* border: solid; */
+    border-width: 1px;
+    border-radius: 10px;
+
+    margin-left: 50px;
+     background-color:royalblue; 
+    cursor: pointer;
+}
+.sign>p{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+
+    /* border-radius: 50px; */
+ 
+}
+
+.accept{
+   padding-left: 48px;
+
+   /* padding-bottom: 10px; */
+}
+.span-1{
+    color:rgb(112, 109, 109);
+}
+.span-2{
+    color:rgb(36, 176, 223);
+}
+
+.end{
+    color: white;
+    padding-left: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.error{
+    color: red;
+    visibility: hidden;
+}

@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>signupform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <div class="navbar">
+        <h1>SIGNUP FORM</h1>
+    </div> -->
+
+    <div class="a1">
+        <div class="a2">
+            <h1>SIGNUP</h1>
+            <p>please fill the form to create an acount!</p>
+            <hr>
+            <form class="form">
+                <div class="names">
+
+                    <div>
+                        <input type="text" placeholder="First Name" id="firstname">
+                        <p class="error" id="firstname_err">First letter should be capital</p>
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="Second Name" id="secondname">
+                        <p class="error" id="secondname_err">Second letter also be capital</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-1">
+                    <input type="email" placeholder="Email" id="email">
+                    <p class="error" id="email_err">incorrect email!</p>
+                </div>
+
+
+                <div class="form-1">
+                    <input type="password" placeholder="New Password" id="newpassword">
+                    <p class="error" id="newpassword_err">First letter in uppercase!!</p>
+                </div>
+
+                <div class="form-1">
+                    <input type="password" placeholder="Confirm Password" id="confirmpassword">
+                    <p class="error" id="confirmpassword_err">Password didn't match</p>
+                </div>
+            </form>
+
+            <div class="accept">
+
+                <input type="checkbox" id="terms">
+                <label for="terms"><span class="span-1">I accept the </span><span class="span-2">Terms of
+                        Use</span><span class="span-1">&</span><span class="span-2">Privacy Policy.</span></label>
+            </div>
+
+            <div class="sign" onclick="signup()">
+                <p>Sign Up</p>
+            </div>
+        </div>
+
+        <div class="end">
+            <p>Already have an account?<u>Login here.</u> </p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
